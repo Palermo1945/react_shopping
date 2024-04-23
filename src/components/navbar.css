@@ -1,0 +1,33 @@
+.navbar {
+    position: relative; /* Make the parent element of .extras relative */
+    width: 100%;
+    height: 80px;
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .links {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: rgb(247, 243, 243);
+    margin-left: 20px;
+    font-size: 25px;
+  }
+
+  .links a:hover {
+
+    color: rgb(34, 126, 201);
+    
+  }
+
+  .extras {
+    position: absolute;
+    left: 0; /* Move the extras div to the right */
+  }
